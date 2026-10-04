@@ -13,6 +13,10 @@ app.get('/weronika', (_req,res)=>{
     res.send('Route de Weronika');
 });
 
+app.get('/evrim', (_req, res) => {
+  res.send('Route de Evrim');
+});
+
 app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
